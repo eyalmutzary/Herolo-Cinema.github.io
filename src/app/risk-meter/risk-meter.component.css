@@ -1,0 +1,32 @@
+#risk-meter{
+    /* height: 50px; */
+    background-color: var(--box-bg-color);
+}
+
+.gradient{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#69c8e0+0,69c8e0+17,69c8e0+17,84ad4f+78,d1a153+100 */
+    background: #69c8e0; /* Old browsers */
+    background: -moz-linear-gradient(left,  #69c8e0 0%, #69c8e0 17%, #69c8e0 17%, #84ad4f 78%, #d1a153 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #69c8e0 0%,#69c8e0 17%,#69c8e0 17%,#84ad4f 78%,#d1a153 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #69c8e0 0%,#69c8e0 17%,#69c8e0 17%,#84ad4f 78%,#d1a153 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69c8e0', endColorstr='#d1a153',GradientType=1 ); /* IE6-9 */
+}
+
+.progress{
+    background-color: var(--darker-bg-color);
+}
+
+.percent{
+    position: relative;
+    color: #ffffff;
+    font-size: 8px;
+    right: 5px;
+    /* border: 1px red solid; */
+}
+
+#risk-title{
+    font-size: 10px;
+    position: relative;
+    right: 12px;
+    bottom: 5px;
+}

@@ -1,0 +1,21 @@
+.progress{
+    background-color: var(--darker-bg-color);
+}
+
+.percent{
+    color: white;
+    font-size: 8px;
+    display: relative;
+    bottom: 5px;
+    /* text-align: center; */
+}
+
+.progress-bar{
+    background-color: rgb(129,165,195);
+    border-radius: 3px;
+}
+
+#sources-box{
+    padding-top: 11px;
+    padding-bottom: 4px;
+}

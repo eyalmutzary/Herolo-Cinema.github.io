@@ -1,0 +1,12 @@
+<span id="risk-title" class="mb-2">system risk meter</span>
+<div id="risk-meter" class="row align-items-center p-1">
+    <div class=" col-10 col-lg-11 p-1">
+        <div class="progress" style="height: 4px;">
+            <div class="progress-bar gradient" [ngStyle]="{'width': percent}" style=" border-radius: 3px;">
+            </div>
+        </div> 
+    </div>
+    <div class="percent col-2 col-lg-1">
+        {{ percent }}
+    </div>
+</div>

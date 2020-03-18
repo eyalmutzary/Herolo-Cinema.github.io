@@ -1,0 +1,11 @@
+<div class="row title">
+    <p *ngIf="networkType == 'ClearWeb'" class="col m-1 pl-2">Clear Web sources (%)</p>
+    <p *ngIf="networkType == 'DarkWeb'" class="col m-1 pl-2">Dark Web sources (%)</p>
+</div>
+<div id="sources-box" class="row content pl-1" *ngFor="let key of objectKeys(items)" >
+    <span class="col-12 pl-2 mb-1">{{ key }}</span>
+    <div class="progress col-10 ml-2 p-0" style="height: 4px;">
+        <div class="progress-bar" [ngStyle]="{'width': items[key]+'%'}"></div>
+    </div>
+    <span class="percent col m-0 p-0 text-center">{{ items[key] | number:'1.0-0' }}</span>
+</div>

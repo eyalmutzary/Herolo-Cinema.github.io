@@ -1,0 +1,29 @@
+<div class="ml-5 mt-4 pt-3" style="max-width: 92vw;">
+    <div class="row">
+        <div class="col-md-5 col-11 risk-bar">
+            <app-risk-meter></app-risk-meter>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-11 col-md-5 box">
+            <app-types [networkType] = "'ClearWeb'"></app-types>
+        </div>
+        <div class="col-md col-11 box">
+            <app-severities [networkType] = "'ClearWeb'"></app-severities>
+        </div>
+        <div class="col-md-3 col-11 box">
+            <app-sources [networkType] = "'ClearWeb'"></app-sources>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-11 col-md-5 box">
+            <app-types [networkType] = "'DarkWeb'"></app-types>
+        </div>
+        <div class="col-md col-11 box">
+            <app-severities [networkType] = "'DarkWeb'"></app-severities>
+        </div>
+        <div class="col-md-3 col-11 box">
+            <app-sources [networkType] = "'DarkWeb'"></app-sources>
+        </div>
+    </div>
+</div>

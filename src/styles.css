@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(38, 76, 110);
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(224,225,227);
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+:root {
+  --box-bg-color: rgb(37, 68, 98);
+  --dark-bg-color: rgb(36,58,78);
+  --darker-bg-color: rgb(32, 53, 69);
+}
+
+.title{
+    font-size: 10px;
+    background: var(--dark-bg-color);
+}
+
+.content{
+    font-size: 8px;
+    background-color: var(--box-bg-color);
+
+}
+
+.number{
+    font-size: 14px;
+    font-weight: lighter;
+}

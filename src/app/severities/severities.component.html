@@ -1,0 +1,42 @@
+<div>
+    
+</div>
+<div class="row title align-items-center">
+    <p class="col  m-1 pl-2">Clear Web severities</p>
+</div>
+
+<div class="row content d-flex justify-content-center">
+    <div class="wrapper">
+        <svg width="130px" height="135px" viewBox="0 0 42 42" class="donut">
+            <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="rgb(37, 68, 98)"></circle>
+            <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#rgb(37, 68, 98)" stroke-width="2"></circle>
+        
+            <circle #red class="donut-segment" data-per="20" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="rgb(195,61,62)" stroke-width="2" stroke-dasharray="0 0" stroke-dashoffset="25"></circle>
+            <circle #orange class="donut-segment" data-per="20" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="rgb(223,158, 38)" stroke-width="2" stroke-dasharray="0 0" stroke-dashoffset="105"></circle>
+            <circle #blue class="donut-segment" data-per="20" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="rgb(65, 159, 195)" stroke-width="2" stroke-dasharray="0 0" stroke-dashoffset="75"></circle>
+        <!--   stroke-dashoffset formula:
+            100 − All preceding segments’ total length + First segment’s offset = Current segment offset
+        -->
+        </svg>
+    </div>
+</div>
+
+<div class="row text-left content">
+    <div class="col-lg-1 col-md-0 col-0"></div>
+    <div class="col">
+        <p class="m-0">high</p>
+        <h1 class="number">{{ severitiesData['High'] }}</h1>
+    </div>
+    <div class="col-lg-2 col-md-0 col-1"></div>
+    <div class="col">
+        <p class="m-0">medium</p>
+        <h1 class="number">{{ severitiesData['Medium'] }}</h1>
+    </div>
+    <div class="col-lg-2 col-md-0 col-1"></div>
+    <div class="col">
+        <p class="m-0">low</p>
+        <h1 class="number">{{ severitiesData['Low'] }}</h1>
+    </div>
+    <div class="col-1"></div>
+</div>
+
